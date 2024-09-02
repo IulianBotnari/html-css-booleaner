@@ -23,3 +23,13 @@
     bottom: 10%;
     left: 10%;
 }
+
+#timimg1{
+    display: block;
+    margin-top: 20px;
+}
+
+#timimg2{
+    display: block;
+    margin-top: 10px;
+}
