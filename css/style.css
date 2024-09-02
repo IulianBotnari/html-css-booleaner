@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -7,29 +7,98 @@
     background-color: rgb(100, 186, 243);
 }
 
-#headbackground{
+#headbackground {
     background-image: url(../img/pattern.png);
     height: 250px;
     background-size: repeat;
     position: relative;
-    
+
 }
 
-#thebooleaner{
+#thebooleaner {
     background-image: url(../img/logo.svg);
     height: 100px;
-    width: 400px; background-size: cover;
+    width: 400px;
+    background-size: cover;
     position: absolute;
     bottom: 10%;
     left: 10%;
 }
 
-#timimg1{
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#timimg1 {
     display: block;
     margin-top: 20px;
 }
 
-#timimg2{
+#timimg2 {
     display: block;
     margin-top: 10px;
+}
+
+.contenitori {
+    position: relative;
+}
+
+.tablehead{
+    width: 100%;
+    height: 1rem;
+
+}
+
+
+.colonne1{
+   width: calc(100%/3);
+   display: inline-block;  
+}
+.colonne2{
+    display: inline-block;  
+    width: calc(100%/3);
+    float: left;
+
+}
+
+.colonne3{
+    width: calc(100%/3);
+    float: left;
+    display: inline-block;  
+
+}
+
+
+
+.contenitori:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+
+
+.centratura1 {
+    width: 33%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+
+
+}
+
+.centratura2 {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 33%;
+
+}
+
+.centratura3 {
+    width: 33%;
+    position: relative;
+    left: 66.66%;
 }
