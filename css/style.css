@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 #head {
@@ -102,7 +103,7 @@ main {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    left: 33%;
+    left: 33.33%;
 
 }
 
