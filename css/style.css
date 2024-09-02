@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+#head {
+    height: 250px;
+    background-color: rgb(100, 186, 243);
+}
+
+#headbackground{
+    background-image: url(../img/pattern.png);
+    height: 250px;
+    background-size: repeat;
+    position: relative;
+    
+}
+
+#thebooleaner{
+    background-image: url(../img/logo.svg);
+    height: 100px;
+    width: 400px; background-size: cover;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
